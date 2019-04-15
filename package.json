@@ -1,0 +1,16 @@
+{
+  "name": "elm-weggl-experimant",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Elm/WebGL Experiments",
+  "main": "index.html",
+  "scripts": {
+    "landscape": "./node_modules/.bin/elm make ./src/Landscape.elm --output=./dist/landscape.html --optimize"
+  },
+  "author": "me@mika.xyz",
+  "license": "ISC",
+  "devDependencies": {
+    "elm": "^0.19.0-bugfix6",
+    "elm-format": "^0.8.1"
+  }
+}
